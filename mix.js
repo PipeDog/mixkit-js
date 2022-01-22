@@ -7,7 +7,7 @@
 //  ```
 //
 
-class MixMetaData {
+class MixMetaClass {
 
     constructor() {
         this._callbacksMap = {};
@@ -130,4 +130,4 @@ class MixMetaData {
 
 }
 
-NativeModules = new MixMetaData();
+NativeModules = new MixMetaClass();
